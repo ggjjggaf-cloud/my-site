@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Як зварити смачний борщ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HERO БЛОК -->
+    <header class="hero">
+        <h1 class="borch21">Як зварити смачний борщ</h1>
+        <h2 class="borch2">
+            Не потрібно варити — можна посмакувати у <span>BORCHFAMILY</span>
+        </h2>
+        <a class="hero-btn" href="#">Переглянути борщі</a>
+    </header>
+
+    <!-- НАВІГАЦІЯ -->
+    <nav class="nav">
+        <a class="btn" href="#">Смачні українські борщі</a>
+        <a class="btn" href="#">Меню</a>
+        <a class="btn" href="#">Контакти</a>
+    </nav>
+
+    <!-- ОСНОВНИЙ КОНТЕНТ -->
+    <main>
+
+        <section class="about">
+            <h2 class="borch">
+                BORCHFAMILY — це старовинна українська ресторація, яка міняла свою назву віками.
+                Тут смакували борщем самі гуцули.
+            </h2>
+            <img class="photo" src="800_0_1588081977-7108.webp" alt="Український борщ">
+        </section>
+
+        <!-- КАРТКИ З ТОВАРОМ -->
+        <section class="products">
+            <h2 class="section-title">Наші борщі</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <img src="klasichnii-ukrayinskii-borshch-основне-фото-рецепта.jpg" alt="Класичний борщ">
+                    <h3>Класичний український борщ</h3>
+                    <p>Буряк, капуста, м'ясо, сметана</p>
+                    <span class="price">120 грн</span>
+                </div>
+
+                <div class="card">
+                    <img src="a3a987d4-aecb-447c-aa49-3641a158cf40.jpg" alt="Гуцульський борщ">
+                    <h3>Гуцульський борщ</h3>
+                    <p>Насичений смак Карпат</p>
+                    <span class="price">140 грн</span>
+                </div>
+
+                <div class="card">
+                    <img src="400_0_1662892107-3846.webp" alt="Пісний борщ">
+                    <h3>Пісний борщ</h3>
+                    <p>Ідеально для посту</p>
+                    <span class="price">100 грн</span>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h3>Наші контакти: +38 068 143 83 66</h3>
+        <h3>Наша локація: Львів, вул. Стороженка, 12</h3>
+        <img class="photo small" src="_122937216_gettyimages-1130634183.jpg" alt="Логотип">
+        <h3>© 2026 Створено учнем Логіки</h3>
+    </footer>
+
+</body>
+</html>
